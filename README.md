@@ -6,12 +6,12 @@
 <p><b>type[] arrayName; or type arrayName[];</b>      here the type can be int,float,char or string</p>
   <ul><li>c: int arr[5];</li>
     <li>java: int[] arr;</li>
-    <li>python: arr=[]</li></ul>
+    </ul>
 <h3>Initialization:</h3>
 <p>Assigning values to an array after its declaration.</p>
 <ul><li>C: int arr[5] = {1, 2, 3, 4, 5};</li>
 <li>Java: int[] arr = {1, 2, 3, 4, 5};</li>
-<li>Python: arr = [1, 2, 3, 4, 5] </li></ul>
+</ul>
 <h3>Creating dynamically during runtime:</h3>
 <ul><li>C: int arr[100];</li>
   <li>Java: int[] arr = new int[5];</li></ul>
@@ -54,3 +54,9 @@ public class ArrayInput {
     }
 }</code></pre>
 </li></ul>
+<h3>Types of Array</h3>
+<p>It is classified into 2 types - based on size and dimension.</p>
+<h4><I>Based on size:</I><br>1.Fixed-size<br>2.Dynamic-size</h4>
+<h4><I>Based on dimension:</I><br>1.one-dimension array<br>2.two-dimension array</h4>
+<p>Fixed-size: In fixed size array we cannot able to change the size of the array once declared.If we mentioned the size as large and used only less space the remaining memory are wasted.This results in improper memory allocation and wastage of memory.This can be solved by dynamic size array.</p>
+<p>Dynamic-size: In dynamic size array we can able to change the size of the array as per the requirement.we can add or remove elements independant of the size.</p>
